@@ -1,0 +1,23 @@
+{
+  "name": "react-pwa",
+  "version": "1.0.0",
+  "description": "Progressive Web App using React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranjanbala/react-pwa.git"
+  },
+  "keywords": [
+    "pwa",
+    "react"
+  ],
+  "author": "\"Sachin Khairnar <sachinum@gmail.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/ranjanbala/react-pwa/issues"
+  },
+  "homepage": "https://github.com/ranjanbala/react-pwa#readme"
+}
