@@ -1,13 +1,14 @@
 const path = require('path');
-
+const srcDir = path.resolve(__dirname, '../src')
 module.exports = {
-  context: path.join(__dirname, 'src'),
+  context: `${srcDir}`,
   entry: [
     './main.js',
   ],
   output: {
-    path: path.join(__dirname, 'www'),
-    filename: 'bundel.js',
+    path: path.join(__dirname, '../www'),
+    filename: 'bundle.js',
+    publicPath: '/',
   },
   module: {
     rules: [
@@ -22,7 +23,7 @@ module.exports = {
   },
   resolve: {
     modules: [
-      path.join(__dirname, 'node_modules'),
+      path.join(__dirname, '../node_modules'),
     ],
-  },
+  }
 };
