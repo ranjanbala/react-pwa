@@ -20,6 +20,14 @@ Setup
 ```
 npm install
 ```
+### webpack-deshboard install error ###
+Error:
+Python Not Found
+Resolution:
+npm --add-python-to-path='true' --debug install --global windows-build-tools
+
+Source:
+https://github.com/nfroidure/ttf2woff2/issues/28
 
 Compile
 ---
@@ -32,4 +40,6 @@ Inspired By
 ---
 ```
 http://andrewhfarmer.com/build-your-own-starter/#0-intro
+
+https://engineering.musefind.com/build-your-first-progressive-web-app-with-react-8e1449c575cd
 ```

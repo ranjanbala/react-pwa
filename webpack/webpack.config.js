@@ -9,7 +9,7 @@ module.exports = {
   ],
   output: {
     path: path.join(__dirname, '../www'),
-    filename: 'bundel.js',
+    filename: 'bundle.js',
   },
   module: {
     rules: [
