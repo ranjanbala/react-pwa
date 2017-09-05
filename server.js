@@ -1,12 +1,12 @@
 const express = require('express');
 const webpackDevMiddleware = require('webpack-dev-middleware');
 const webpack = require('webpack');
-const webpackConfig = require('./webpack/webpack.config.js');
+const webpackConfig = require('./webpack/webpack.dev.js');
 const app = express();
 
 const compiler = webpack(webpackConfig);
 
-app.use(express.static(__dirname + '/www'));
+app.use(express.static(__dirname + '/dist'));
 
 app.use(webpackDevMiddleware(compiler, {
   hot: true,
