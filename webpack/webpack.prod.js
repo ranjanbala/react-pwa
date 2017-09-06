@@ -27,7 +27,7 @@ module.exports = {
       {
       test: /\.css$/,
       use: ExtractTextPlugin.extract(['css-loader?modules,localIdentName="[name]-[local]-[hash:base64:6]",camelCase']),
-    }
+      }
     ],
   },
   devtool: 'source-map',

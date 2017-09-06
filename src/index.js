@@ -2,10 +2,9 @@ import React from 'react'
 import { render } from 'react-dom'
 import { install } from 'offline-plugin/runtime'
 
-// import './base.css'
-// import App from './components/App/App'
+// import './assets/css/main.css'
 
-render(<h1>PWA - React</h1>, document.getElementById('root'))
+render(<h1>Chempifine</h1>, document.getElementById('root'))
 
 if (process.env.NODE_ENV === 'production') {
   install()
